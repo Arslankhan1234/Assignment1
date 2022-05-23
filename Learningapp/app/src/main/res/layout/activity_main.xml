@@ -14,7 +14,8 @@
         android:layout_marginTop="1dp"
         android:text="@string/A"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="new_activity"/>
 
     <Button
         android:id="@+id/B"
@@ -24,7 +25,8 @@
         android:layout_marginTop="1dp"
         android:text="@string/B"
         app:layout_constraintStart_toEndOf="@+id/A"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="new_activity"/>
 
     <Button
         android:id="@+id/C"
@@ -34,7 +36,8 @@
         android:layout_marginTop="1dp"
         android:text="@string/C"
         app:layout_constraintStart_toEndOf="@+id/B"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="new_activity"/>
 
     <Button
         android:id="@+id/D"
@@ -44,7 +47,8 @@
         android:layout_marginTop="28dp"
         android:text="@string/D"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/A" />
+        app:layout_constraintTop_toBottomOf="@+id/A"
+        android:onClick="new_activity"/>
 
     <Button
         android:id="@+id/E"
@@ -54,7 +58,8 @@
         android:layout_marginTop="28dp"
         android:text="@string/E"
         app:layout_constraintStart_toEndOf="@+id/D"
-        app:layout_constraintTop_toBottomOf="@+id/B" />
+        app:layout_constraintTop_toBottomOf="@+id/B"
+        android:onClick="new_activity"/>
 
     <Button
         android:id="@+id/F"
@@ -64,7 +69,8 @@
         android:layout_marginTop="28dp"
         android:text="@string/F"
         app:layout_constraintStart_toEndOf="@+id/E"
-        app:layout_constraintTop_toBottomOf="@+id/C" />
+        app:layout_constraintTop_toBottomOf="@+id/C"
+        android:onClick="new_activity"/>
 
     <Button
         android:id="@+id/G"
@@ -74,7 +80,8 @@
         android:layout_marginTop="28dp"
         android:text="@string/G"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/D" />
+        app:layout_constraintTop_toBottomOf="@+id/D"
+        android:onClick="new_activity"/>
 
     <Button
         android:id="@+id/H"
@@ -84,7 +91,8 @@
         android:layout_marginTop="28dp"
         android:text="@string/H"
         app:layout_constraintStart_toEndOf="@+id/G"
-        app:layout_constraintTop_toBottomOf="@+id/E" />
+        app:layout_constraintTop_toBottomOf="@+id/E"
+        android:onClick="new_activity"/>
 
     <Button
         android:id="@+id/I"
@@ -94,7 +102,8 @@
         android:layout_marginTop="28dp"
         android:text="@string/I"
         app:layout_constraintStart_toEndOf="@+id/H"
-        app:layout_constraintTop_toBottomOf="@+id/F" />
+        app:layout_constraintTop_toBottomOf="@+id/F"
+        android:onClick="new_activity"/>
 
     <Button
         android:id="@+id/J"
@@ -104,7 +113,8 @@
         android:layout_marginTop="28dp"
         android:text="@string/J"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/G" />
+        app:layout_constraintTop_toBottomOf="@+id/G"
+        android:onClick="new_activity"/>
 
     <Button
         android:id="@+id/K"
@@ -114,7 +124,8 @@
         android:layout_marginTop="28dp"
         android:text="@string/K"
         app:layout_constraintStart_toEndOf="@+id/J"
-        app:layout_constraintTop_toBottomOf="@+id/H" />
+        app:layout_constraintTop_toBottomOf="@+id/H"
+        android:onClick="new_activity"/>
 
     <Button
         android:id="@+id/L"
@@ -124,7 +135,8 @@
         android:layout_marginTop="28dp"
         android:text="@string/L"
         app:layout_constraintStart_toEndOf="@+id/K"
-        app:layout_constraintTop_toBottomOf="@+id/I" />
+        app:layout_constraintTop_toBottomOf="@+id/I"
+        android:onClick="new_activity"/>
 
     <Button
         android:id="@+id/M"
@@ -134,7 +146,8 @@
         android:layout_marginTop="28dp"
         android:text="@string/M"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/J" />
+        app:layout_constraintTop_toBottomOf="@+id/J"
+        android:onClick="new_activity"/>
 
     <Button
         android:id="@+id/N"
@@ -144,7 +157,8 @@
         android:layout_marginTop="28dp"
         android:text="@string/N"
         app:layout_constraintStart_toEndOf="@+id/M"
-        app:layout_constraintTop_toBottomOf="@+id/K" />
+        app:layout_constraintTop_toBottomOf="@+id/K"
+        android:onClick="new_activity"/>
 
     <Button
         android:id="@+id/O"
@@ -154,7 +168,8 @@
         android:layout_marginTop="28dp"
         android:text="@string/O"
         app:layout_constraintStart_toEndOf="@+id/N"
-        app:layout_constraintTop_toBottomOf="@+id/L" />
+        app:layout_constraintTop_toBottomOf="@+id/L"
+        android:onClick="new_activity"/>
 
     <Button
         android:id="@+id/P"
@@ -164,7 +179,8 @@
         android:layout_marginTop="28dp"
         android:text="@string/P"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/M" />
+        app:layout_constraintTop_toBottomOf="@+id/M"
+        android:onClick="new_activity"/>
 
     <Button
         android:id="@+id/Q"
@@ -174,7 +190,8 @@
         android:layout_marginTop="28dp"
         android:text="@string/Q"
         app:layout_constraintStart_toEndOf="@+id/P"
-        app:layout_constraintTop_toBottomOf="@+id/N" />
+        app:layout_constraintTop_toBottomOf="@+id/N"
+        android:onClick="new_activity"/>
 
     <Button
         android:id="@+id/R"
@@ -184,7 +201,8 @@
         android:layout_marginTop="28dp"
         android:text="@string/R"
         app:layout_constraintStart_toEndOf="@+id/Q"
-        app:layout_constraintTop_toBottomOf="@+id/O" />
+        app:layout_constraintTop_toBottomOf="@+id/O"
+        android:onClick="new_activity"/>
 
     <Button
         android:id="@+id/S"
@@ -194,7 +212,8 @@
         android:layout_marginTop="28dp"
         android:text="@string/S"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/P" />
+        app:layout_constraintTop_toBottomOf="@+id/P"
+        android:onClick="new_activity"/>
 
     <Button
         android:id="@+id/T"
@@ -204,7 +223,8 @@
         android:layout_marginTop="28dp"
         android:text="@string/T"
         app:layout_constraintStart_toEndOf="@+id/S"
-        app:layout_constraintTop_toBottomOf="@+id/Q" />
+        app:layout_constraintTop_toBottomOf="@+id/Q"
+        android:onClick="new_activity"/>
 
     <Button
         android:id="@+id/U"
@@ -214,7 +234,8 @@
         android:layout_marginTop="28dp"
         android:text="@string/U"
         app:layout_constraintStart_toEndOf="@+id/T"
-        app:layout_constraintTop_toBottomOf="@+id/R" />
+        app:layout_constraintTop_toBottomOf="@+id/R"
+        android:onClick="new_activity"/>
 
     <Button
         android:id="@+id/V"
@@ -224,7 +245,8 @@
         android:layout_marginTop="28dp"
         android:text="@string/V"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/S" />
+        app:layout_constraintTop_toBottomOf="@+id/S"
+        android:onClick="new_activity"/>
 
     <Button
         android:id="@+id/W"
@@ -234,7 +256,8 @@
         android:layout_marginTop="28dp"
         android:text="@string/W"
         app:layout_constraintStart_toEndOf="@+id/V"
-        app:layout_constraintTop_toBottomOf="@+id/T" />
+        app:layout_constraintTop_toBottomOf="@+id/T"
+        android:onClick="new_activity"/>
 
     <Button
         android:id="@+id/X"
@@ -244,7 +267,8 @@
         android:layout_marginTop="28dp"
         android:text="@string/X"
         app:layout_constraintStart_toEndOf="@+id/W"
-        app:layout_constraintTop_toBottomOf="@+id/U" />
+        app:layout_constraintTop_toBottomOf="@+id/U"
+        android:onClick="new_activity"/>
 
     <Button
         android:id="@+id/Y"
@@ -254,7 +278,8 @@
         android:layout_marginTop="28dp"
         android:text="@string/Y"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/W" />
+        app:layout_constraintTop_toBottomOf="@+id/W"
+        android:onClick="new_activity"/>
 
     <Button
         android:id="@+id/Z"
@@ -264,6 +289,7 @@
         android:layout_marginTop="28dp"
         android:text="@string/Z"
         app:layout_constraintStart_toEndOf="@+id/Y"
-        app:layout_constraintTop_toBottomOf="@+id/X" />
+        app:layout_constraintTop_toBottomOf="@+id/X"
+        android:onClick="new_activity"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
